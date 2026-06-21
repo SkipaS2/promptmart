@@ -297,46 +297,26 @@ export default function PromptMartApp() {
 
 
       {/* 4. СЕКЦИЯ ОПЛАТЫ И ТАРИФОВ ($12) */}
-
       <section id="pricing" style={{ padding: '100px 20px', maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-
         <h2 style={{ fontSize: '36px', fontWeight: '700', marginBottom: '12px' }}>Один тариф. Полный доступ.</h2>
-
         <p style={{ color: '#A0A0AA', marginBottom: '40px' }}>Присоединяйтесь к PRO и разблокируйте скрытые инженерные промпты.</p>
-
         
-
         <div style={{ background: 'linear-gradient(145deg, #131320 0%, #0A0A0F 100%)', border: '2px solid #7000FF', borderRadius: '24px', padding: '40px', maxWidth: '450px', margin: '0 auto', position: 'relative' }}>
-
           <div style={{ position: 'absolute', top: '-15px', left: '50%', transform: 'translateX(-50%)', backgroundColor: '#7000FF', color: '#FFF', padding: '4px 14px', borderRadius: '12px', fontSize: '12px', fontWeight: 'bold' }}>ПОПУЛЯРНОЕ РЕШЕНИЕ</div>
-
           <div style={{ fontSize: '22px', fontWeight: '700', marginBottom: '10px' }}>План "PRO"</div>
-
           <div style={{ fontSize: '48px', fontWeight: '800', marginBottom: '20px' }}>$12 <span style={{ fontSize: '16px', color: '#A0A0AA', fontWeight: 'normal' }}>/ месяц</span></div>
-
-          <ul style={{ textAling: 'left', color: '#A0A0AA', padding: '0', listStyle: 'none', marginBottom: '30px', lineHeight: '2' }}>
-
+          
+          <ul style={{ textAlign: 'left', color: '#A0A0AA', padding: '0', listStyle: 'none', marginBottom: '30px', lineHeight: '2' }}>
             <li>• Доступ к 2,400+ закрытым промптам</li>
-
             <li>• Промпты под Midjourney v6 и Claude 3.5 Opus</li>
-
             <li>• Обновление базы каждые 24 часа</li>
-
           </ul>
-
+          
           <button onClick={handleCheckout} style={{ width: '100%', padding: '14px', borderRadius: '8px', border: 'none', backgroundColor: '#7000FF', color: '#FFF', fontWeight: 'bold', fontSize: '16px', cursor: 'pointer' }}>
-
             Оформить подписку за $12
-
           </button>
-
         </div>
-
       </section>
-
     </div>
-
   );
-
-} 
-
+}
