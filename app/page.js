@@ -68,7 +68,7 @@ export default function PromptMartApp() {
 
   // Функция для кнопки "Скопировать / Открыть"
 
-  const handlePromptAction = (prompt: any) => {
+  const handlePromptAction = (prompt) => {
 
     if (prompt.access_level === 'pro' && !isProUser) {
 
@@ -134,7 +134,7 @@ export default function PromptMartApp() {
 
           <a href="#pricing" style={{ color: '#A0A0AA', textDecoration: 'none' }}>Цены</a>
 
-          <button onClick={handleCheckout} style={{ background: 'linear-gradient(135deg, #00E5CC 0%, #7000FF 100%)', border: 'none', padding: '10px 20px', borderRadius: '8px', color: '#fff', fontWeight: 'bold', cursor: 'pointer' }}>
+          <ul style={{ textAlign: 'left', color: '#A0A0AA', padding: '0', listStyle: 'none', marginBottom: '30px', lineHeight: '2' }}>
 
             {isProUser ? '✨ Вы PRO пользователь' : 'Купить PRO'}
 
