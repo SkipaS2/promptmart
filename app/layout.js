@@ -1,12 +1,12 @@
 export const metadata = {
   title: 'PromptMart',
-  description: 'AI Prompt Marketplace',
-}
+  description: 'Библиотека ИИ-промптов',
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body>{children}</body>
     </html>
-  )
-)
+  );
+}
