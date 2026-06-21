@@ -18,15 +18,15 @@ const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 export default function PromptMartApp() {
 
-  const [prompts, setPrompts] = useState<any[]>([]);
+  const [prompts, setPrompts] = useState([]);
 
-  const [selectedCategory, setSelectedCategory] = useState<string>('Все');
+  const [selectedCategory, setSelectedCategory] = useState('Все');
 
-  const [searchQuery, setSearchQuery] = useState<string>('');
+  const [searchQuery, setSearchQuery] = useState('');
 
-  const [activePrompt, setActivePrompt] = useState<string | null>(null);
+  const [activePrompt, setActivePrompt] = useState(null);
 
-  const [isProUser, setIsProUser] = useState<boolean>(false); // По умолчанию пользователь Free
+  const [isProUser, setIsProUser] = useState(false); // По умолчанию пользователь Free
 
 
 
